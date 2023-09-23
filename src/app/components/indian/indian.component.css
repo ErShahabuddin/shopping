@@ -1,0 +1,25 @@
+#brd{
+    box-shadow: 10px 8px 6px red;
+}
+#br{
+    filter: drop-shadow(10px 8px 6px red);
+}
+#btn{
+    filter: drop-shadow(8px 8px 6px blue);
+}
+img{
+    transition: 2s;
+   
+}
+img:hover{
+   transform: scale(2);
+   transition: 2s;
+}
+button{
+    transition: 2s;
+   
+}
+button:hover{
+   transform: scale(2);
+   transition: 2s;
+}

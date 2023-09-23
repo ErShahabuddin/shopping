@@ -1,0 +1,38 @@
+<div class="container-fluid">
+<div class="sticky-top">
+  <h1 class="text-center text-white bg-info">WELCOME</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   <div class="container-fluid">
+    <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a routerLink="index" class="navbar-brand"><span class="bi bi-heart-arrow ">XXXRAHMANI.COM</span></a>
+    
+    <div class="collapse navbar-collapse " id="menu">
+      <ul class="navbar-nav me-auto mb-2">
+        <li class="nav-item"><a routerLink="index" class="nav-link">All Items</a></li>
+       <li class="nav-item"><a routerLink="indian" class="nav-link">Indian</a></li>
+       <li class="nav-item"><a routerLink="desi" class="nav-link">Desi</a></li>
+       <li class="nav-item"><a routerLink="russian" class="nav-link">Russian</a></li>
+       <li class="nav-item"><a routerLink="chinise" class="nav-link">Chinise</a></li>
+      </ul>
+    
+     </div>
+     <div class="btn-group">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu bg-info" aria-labelledby="dropdownMenuButton">
+        <li><button class="dropdown-item"type="button"  data-bs-toggle="modal" data-bs-target="#order"><span class="bi bi-cart4"></span>Your Orders[]</button></li>
+        <li><button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#cart"><span class="bi bi-cart-check-fill"></span>Show Items[]</button></li>
+      </ul>
+    </div>
+   
+    
+   </div>
+</nav>
+</div>
+<app-cart></app-cart>
+<app-model1></app-model1>
+  <router-outlet></router-outlet>
+</div>

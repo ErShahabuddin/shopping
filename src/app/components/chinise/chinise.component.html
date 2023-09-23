@@ -1,0 +1,136 @@
+<div class= "container-fluid d-flex flex-wrap" >
+    <div class="card m-4" *ngFor="let item of items">
+        <img [src]="item.images" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>{{item.name}}</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;{{item.price}}</p>
+        <button (click)="addItemToCart(item)" class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn" type="button"  data-bs-toggle="modal" data-bs-target="#details">Book Now</button>
+      </div>
+    
+    </div>
+
+    <div class="card m-4" id="brd" *ngFor="let item of items">
+        <img [src]="item.images1" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>Feel Chinise</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;99</p>
+        <button class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card m-4" id="br">
+        <img src="../../../assets/juned2.jpeg" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>Feel Chinise</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;99</p>
+        <button class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn">Book Now</button>
+      </div>
+    </div>
+
+
+    <div class="card m-4">
+        <img src="../../../assets/kais3.jpeg" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>Feel Chinise</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;99</p>
+        <button class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card m-4">
+        <img src="../../../assets/masum.jpeg" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>Feel Chinise</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;99</p>
+        <button class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card m-4">
+        <img src="../../../assets/harun4.jpeg" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>Feel Chinise</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;99</p>
+        <button class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card m-4">
+        <img src="../../../assets/harun2.jpeg" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>Feel Chinise</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;99</p>
+        <button class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card m-4">
+        <img src="../../../assets/juned4.jpeg" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>Feel Chinise</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;99</p>
+        <button class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card m-4">
+        <img src="../../../assets/harun3.jpeg" class="card-img-top" height="200">
+      <div class="card-header bg-info">
+        <p>Feel Chinise</p>
+      </div>
+      <div class="card-body">
+        <p>Price : Only &#8377;99</p>
+        <button class="form-control bg-warning"><span class="bi bi-cart4"></span>Add to Cart </button>
+      </div>
+      <div class="card-footer">
+         <button class="form-control bg-danger" id="btn">Book Now</button>
+      </div>
+      
+    </div>
+
+    
+</div>
+
+<app-model></app-model>
+<app-customer></app-customer>
+<app-footer></app-footer>
